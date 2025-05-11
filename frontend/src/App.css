@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+/* Orders */
+.orderback {
+  background: url("https://images.unsplash.com/photo-1521917441209-e886f0404a7b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80");
+  max-height: max-content;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.note {
+  margin: 90px;
+  outline: none;
+  display: inline-block;
+  background: transparent;
+  box-shadow: 4px 4px 15px -10px rgba(0, 0, 0, 0.9);
+  width: max-content;
+  background-color: white;
+}
+.icons {
+  margin: 20px 100px;
+  padding-left: 480px;
+}
+.icon {
+  margin: 50px;
+  color: #1e6f5c;
+  transform: scale(1.6);
+}
+
+@media (max-width: 640px) {
+  .items {
+    flex-basis: 80%;
+    margin: auto;
+  }
+}
+
+/* Contact */
+.contact {
+  margin: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+}
+
+/* Subcription */
+#button-addon1 {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+@media (max-width: 640px) {
+  .form-control {
+    flex-basis: 80%;
+    margin: auto;
+  }
+}
+
+/* Footer */
+.footer-logo {
+  height: 50px;
+}
